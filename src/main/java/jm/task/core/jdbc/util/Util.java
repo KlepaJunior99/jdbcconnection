@@ -1,11 +1,9 @@
 package jm.task.core.jdbc.util;
 
-import jm.task.core.jdbc.model.User;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.PreparedStatement;
 import java.sql.SQLException;
+
 
 public class Util {
     // реализуйте настройку соеденения с БД
@@ -24,5 +22,4 @@ public class Util {
 
         return dbConnection;
     }
-
 }
